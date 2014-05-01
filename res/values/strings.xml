@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RAINBOW</string>
+    <string name="android_url">https://play.google.com/store/apps/details?id=pohkahkong.game.rainbow</string>
+    <string name="facebook_url">https://www.facebook.com/pages/RAINBOW-for-Android/341748685907997</string>
+	<string name="menu_mapwidth">8</string>
+    <string name="menu_mapheight">12</string>
+    <string name="game_mapwidth">10</string>
+    <string name="game_mapheight">17</string>
+    <string name="max_ratingplaycount">50</string>
+    <string name="game_timercritcal">5</string>
+</resources>

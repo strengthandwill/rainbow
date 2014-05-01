@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/gamePausedPausedIV"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+		android:layout_alignParentTop="true"        
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/game_gamepaused_paused" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/gamePausedPausedIV"
+        android:layout_above="@+id/gamePausedRestartIB"
+        android:orientation="vertical" >
+
+        <pohkahkong.game.rainbow.view.ImageButton
+            android:id="@+id/gamePausedResumeIB"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+			android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/game_gamepaused_resume" />
+
+        <pohkahkong.game.rainbow.view.ImageButton
+            android:id="@+id/gamePausedMainMenuIB"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+			android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/game_gamepaused_mainmenu" />
+
+        <pohkahkong.game.rainbow.view.ImageButton
+            android:id="@+id/gamePausedExitIB"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+			android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/game_gamepaused_exit" />
+    </LinearLayout>
+
+    <pohkahkong.game.rainbow.view.ImageButton
+        android:id="@+id/gamePausedPrevIB"
+        android:layout_width="80dp"
+        android:layout_height="80dp"        
+        android:layout_above="@+id/adView"
+        android:layout_toLeftOf="@+id/gamePausedRestartIB"
+        android:layout_margin="10dp"
+        android:src="@drawable/game_gamepaused_prev" />
+
+    <pohkahkong.game.rainbow.view.ImageButton
+        android:id="@+id/gamePausedNextIB"
+        android:layout_width="80dp"
+        android:layout_height="80dp"        
+        android:layout_above="@+id/adView"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@+id/gamePausedRestartIB"
+        android:src="@drawable/game_gamepaused_next" />
+
+    <pohkahkong.game.rainbow.view.ImageButton
+        android:id="@+id/gamePausedRestartIB"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/adView"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:src="@drawable/game_gamepaused_restart" />
+
+</RelativeLayout>

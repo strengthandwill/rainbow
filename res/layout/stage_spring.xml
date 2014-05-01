@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99d9ea" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/stage_spring_background" />
+
+    <pohkahkong.game.rainbow.view.FadingImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/stage_spring_rainbow" />
+
+    <pohkahkong.game.rainbow.menu.stage.StageObjectsView
+        android:id="@+id/stageObjectsView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/stageSeason"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:src="@drawable/stage_spring_title" />
+
+    <TableLayout
+        android:id="@+id/stageTL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/stageSeason"
+        android:layout_centerHorizontal="true" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <pohkahkong.game.rainbow.menu.stage.StageLevelBtn
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/stage_spring_level" />
+
+            <pohkahkong.game.rainbow.menu.stage.StageLevelBtn
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/stage_spring_level" />
+
+            <pohkahkong.game.rainbow.menu.stage.StageLevelBtn
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/stage_spring_level" />
+
+            <pohkahkong.game.rainbow.menu.stage.StageLevelBtn
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/stage_spring_level" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <pohkahkong.game.rainbow.menu.stage.StageLevelBtn
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/stage_spring_level" />
+
+            <pohkahkong.game.rainbow.menu.stage.StageLevelBtn
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/stage_spring_level" />
+
+            <pohkahkong.game.rainbow.menu.stage.StageLevelBtn
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/stage_spring_level" />
+
+            <pohkahkong.game.rainbow.menu.stage.StageLevelBtn
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/stage_spring_level" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <pohkahkong.game.rainbow.menu.stage.StageLevelBtn
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/stage_spring_level" />
+
+            <pohkahkong.game.rainbow.menu.stage.StageLevelBtn
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/stage_spring_level" />
+
+            <pohkahkong.game.rainbow.menu.stage.StageLevelBtn
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/stage_spring_level" />
+
+            <pohkahkong.game.rainbow.menu.stage.StageLevelBtn
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/stage_spring_level" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="60dp"
+            android:layout_height="60dp" >
+
+            <pohkahkong.game.rainbow.menu.stage.StageLevelBtn
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/stage_spring_level" />
+
+            <pohkahkong.game.rainbow.menu.stage.StageLevelBtn
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/stage_spring_level" />
+
+            <pohkahkong.game.rainbow.menu.stage.StageLevelBtn
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/stage_spring_level" />
+
+            <pohkahkong.game.rainbow.menu.stage.StageLevelBtn
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/stage_spring_level" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="60dp"
+            android:layout_height="60dp" >
+
+            <pohkahkong.game.rainbow.menu.stage.StageLevelBtn
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/stage_spring_level" />
+
+            <pohkahkong.game.rainbow.menu.stage.StageLevelBtn
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/stage_spring_level" />
+
+            <pohkahkong.game.rainbow.menu.stage.StageLevelBtn
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/stage_spring_level" />
+
+            <pohkahkong.game.rainbow.menu.stage.StageLevelBtn
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/stage_spring_level" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
